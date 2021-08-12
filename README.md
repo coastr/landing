@@ -1,3 +1,31 @@
+## Getting Started
+
+This is the repository for Coastr's landing site. It was created via [Gatsby](https://www.gatsbyjs.com/).
+
+## Installation
+
+1.  **Clone and navigate to the repo**
+
+    ```shell
+    git clone git@github.com:coastr/landing.git
+    cd landing
+    ```
+
+2.  **Install NPM packages**
+    ```shell
+    npm install
+    ```
+
+## Usage
+
+1.  **Run Development Server**
+    ```shell
+    npm run develop
+    ```
+2.  **Run Development Server**
+
+    The site is now running at http://localhost:8000
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
