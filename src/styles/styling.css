@@ -1,0 +1,364 @@
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+.index-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordmark {
+  width: 250px;
+  height: 250px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.intro-mockup {
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  padding-right: 50px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.intro-mockup-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.intro-text-container {
+  padding-left: 60px;
+}
+
+.intro-title {
+  /* width: 717px; */
+  height: 66px;
+  left: 1004px;
+  top: 352px;
+  background-color: #2393fb;
+  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 105%;
+  /* or 50px */
+}
+
+.intro-text {
+  font-family: "Poppins SemiBold";
+  font-size: 25px;
+  align-items: center;
+  line-height: 30px;
+  color: #323232;
+  word-wrap: normal;
+  width: 600px;
+}
+
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.demo-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-text-title {
+  font-family: "Poppins Bold";
+  font-size: 80px;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: #323232;
+}
+
+.demo-text-subtitle {
+  font-family: "Poppins Bold";
+  font-size: 30px;
+  align-items: center;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+.demo-review-text {
+  color: #ffffff;
+}
+
+.demo-scan-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.demo-scan-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.demo-scan-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.value-props-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-coastr-text {
+  font-family: "Poppins Bold";
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 139.5%;
+  margin: 100px 0 30px 0;
+}
+
+.value-prop-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.value-prop-number {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 139.5%;
+
+  margin: 0 51px 0 0;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  border: 8px solid;
+  border-color: #2393fb;
+
+  background-color: #2393fb;
+  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.25));
+}
+
+.value-props-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.value-prop-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 0;
+}
+
+.value-prop-title {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 139.5%;
+  color: #323232;
+}
+
+.value-prop-description {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 139.5%;
+  /* identical to box height, or 45px */
+
+  color: #8a8a8a;
+}
+
+.footer-social-icon {
+  margin: 10px;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-contact-button {
+  font-family: "Poppins Bold";
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.25));
+  border-radius: 65px;
+  white-space: nowrap;
+}
+
+.footer-contact-button:hover {
+  opacity: 0.8;
+}
+
+.footer-contact-text {
+  font-family: "Poppins Bold";
+  padding: 30px;
+  color: #8a8a8a;
+  white-space: nowrap;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer-text-copyright {
+  font-family: "Poppins Bold";
+  padding: 20px;
+  color: #454545;
+  justify-content: space-evenly;
+  align-items: cente;
+  display: flex;
+  white-space: nowrap;
+}
+
+.fa-facebook {
+  color: #355eed;
+}
+
+.fa-facebook:hover {
+  color: #2b54e3;
+}
+
+.fa-twitter {
+  color: #355eed;
+}
+
+.fa-twitter:hover {
+  color: #2b54e3;
+}
+
+.fa-instagram {
+  color: #355eed;
+}
+
+.fa-twitter:hover {
+  color: #2b54e3;
+}
+
+.fa-linkedin {
+  color: #355eed;
+}
+
+.fa-linkedin:hover {
+  color: #2b54e3;
+}
+
+.fa-youtube {
+  color: #355eed;
+}
+
+.fa-youtube:hover {
+  color: #2b54e3;
+}
+
+.fa-tiktok {
+  color: #355eed;
+}
+
+.fa-tiktok:hover {
+  color: #2b54e3;
+}
+
+.fa-reddit {
+  color: #355eed;
+}
+
+.fa-reddit:hover {
+  color: #2b54e3;
+}
+
+.fa-envelope {
+  color: #355eed;
+}
+
+.fa-envelope:hover {
+  color: #2b54e3;
+}
