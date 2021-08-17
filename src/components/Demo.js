@@ -9,8 +9,11 @@ import reviewWave from "../images/reviewWave.svg";
 const Demo = () => {
   return (
     <div className="demo-container">
-      <div className="demo-scan-container" style={{ backgroundColor: "#4658fd", marginTop: "-1px" }}>
-        <div className="demo-text-container">
+      <div
+        className="demo-scan-container"
+        style={{ backgroundColor: "#4658fd", marginTop: "-1px" }}
+      >
+        <div className="demo-text-container px-2 px-lg-0">
           <div className="demo-text-title">scan</div>
           <div className="demo-text-subtitle">the QR code at your table</div>
         </div>
@@ -23,13 +26,16 @@ const Demo = () => {
         <img className="scan-wave" src={scanWave}></img>
       </div>
 
-      <div className="demo-scan-container" style={{ backgroundColor: "#4664fd", marginTop: "-1px" }}>
+      <div
+        className="demo-scan-container"
+        style={{ backgroundColor: "#4664fd", marginTop: "-1px" }}
+      >
         <div className="demo-scan-image-container">
           <img src={reviewMockupImage} className="review-scan-image" />
         </div>
-        <div className="demo-text-container">
-          <div className="demo-text-title demo-review-text">review</div>
-          <div className="demo-text-subtitle demo-review-text">your bill</div>
+        <div className="demo-text-container px-2 px-lg-0">
+          <div className="demo-text-title">review</div>
+          <div className="demo-text-subtitle">your bill</div>
         </div>
       </div>
 
@@ -37,10 +43,16 @@ const Demo = () => {
         <img className="scan-wave" src={reviewWave}></img>
       </div>
 
-      <div className="demo-scan-container" style={{ backgroundColor: "#466dfd", marginTop: "-1px" }}>
-        <div className="demo-text-container">
+      <div
+        className="demo-scan-container"
+        style={{ backgroundColor: "#466dfd", marginTop: "-1px" }}
+      >
+        <div className="demo-text-container px-3 px-lg-0">
           <div className="demo-text-title">pay</div>
-          <div style={{ marginTop: "0px", position: "relative", right: "10px" }} className="demo-text-subtitle">
+          <div
+            style={{ marginTop: "0px", position: "relative" }}
+            className="demo-text-subtitle align-self-start"
+          >
             and leave!
           </div>
         </div>
