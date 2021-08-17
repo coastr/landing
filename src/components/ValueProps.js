@@ -9,7 +9,7 @@ const valueProps = [
     number: "1",
   },
   {
-    title: "improve customer exprience",
+    title: "improve customer experience",
     description: "by allowing patrons to leave on their own time",
     number: "2",
   },
@@ -27,9 +27,7 @@ const ValueProps = () => {
         <img className="value-wave" src={wave}></img>
       </div>
       <div className="value-props-container">
-        <div className="why-coastr-text d-flex text-center text-lg-left">
-          why coastr?
-        </div>
+        <div className="why-coastr-text d-flex text-center text-lg-left">why coastr?</div>
         <div className="value-props-list-container container">
           <div className="row justify-content-center">
             <div className="col-auto">
@@ -37,9 +35,7 @@ const ValueProps = () => {
                 <div className="value-prop-container row align-items-center">
                   <div className="col-12 col-lg-2">
                     <div className="d-flex justify-content-center justify-content-lg-start">
-                      <div className="value-prop-number">
-                        {valueProp.number}
-                      </div>
+                      <div className="value-prop-number">{valueProp.number}</div>
                     </div>
                   </div>
                   <div className="value-prop-text-container col-12 col-lg-10">
