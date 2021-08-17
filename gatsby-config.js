@@ -17,7 +17,7 @@ module.exports = {
         head: true,
         defer: false,
         pageTransitionDelay: 0,
-        enableWebVitalsTracking,
+        enableWebVitalsTracking: true,
       },
     },
     "gatsby-plugin-react-helmet",
