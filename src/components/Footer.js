@@ -1,6 +1,6 @@
 import * as React from "react";
 import "../styles/styling.css";
-import wordmark from "../images/wordmarkBluePNG.png";
+import wordmark from "../images/wordmark.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
