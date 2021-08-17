@@ -77,12 +77,7 @@ body {
 }
 
 .intro-title {
-  background-image: linear-gradient(
-    180deg,
-    #2393fb 0%,
-    #4c61fd 99.99%,
-    rgba(77, 95, 253, 0) 100%
-  );
+  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -202,6 +197,16 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  transform: rotate(3.1deg);
+}
+
+.review-scan-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: rotate(-3.1deg);
 }
 
 .value-props-container {
@@ -243,12 +248,7 @@ body {
   border-color: #2393fb;
 
   background-color: #2393fb;
-  background-image: linear-gradient(
-    180deg,
-    #2393fb 0%,
-    #4c61fd 99.99%,
-    rgba(77, 95, 253, 0) 100%
-  );
+  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -327,19 +327,15 @@ body {
   font-size: 15px;
   color: #ffffff;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(
-    180deg,
-    #2393fb 0%,
-    #4c61fd 99.99%,
-    rgba(77, 95, 253, 0) 100%
-  );
+  background: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.25));
   border-radius: 65px;
   white-space: nowrap;
 }
 
 .footer-contact-button:hover {
-  opacity: 0.8;
+  color: #ffffff;
+  background: linear-gradient(180deg, #197edd 0%, #384de6 99.99%, rgba(77, 95, 253, 0) 100%);
 }
 
 .footer-contact-text {
@@ -373,65 +369,65 @@ body {
 }
 
 .fa-facebook {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-facebook:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-twitter {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-twitter:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-instagram {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-twitter:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-linkedin {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-linkedin:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-youtube {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-youtube:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-tiktok {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-tiktok:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-reddit {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-reddit:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
 
 .fa-envelope {
-  color: #355eed;
+  color: #4071fa;
 }
 
 .fa-envelope:hover {
-  color: #2b54e3;
+  color: #2b5de7;
 }
