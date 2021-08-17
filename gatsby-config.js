@@ -3,7 +3,8 @@ module.exports = {
     siteUrl: "https://www.coastr.io",
     title: "Coastr",
     titleTemplate: "%s | Coastr",
-    description: "Coastr allows restaurant customers to pay their bill through their phones",
+    description:
+      "Coastr allows restaurant customers to pay their bill through their phones",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -12,6 +13,11 @@ module.exports = {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-F9S5Y1FVJM",
+        anonymize: false,
+        head: true,
+        defer: false,
+        pageTransitionDelay: 0,
+        enableWebVitalsTracking,
       },
     },
     "gatsby-plugin-react-helmet",
