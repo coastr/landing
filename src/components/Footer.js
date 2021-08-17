@@ -1,6 +1,5 @@
 import * as React from "react";
 import "../styles/styling.css";
-import wordmark from "../images/wordmark.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -11,8 +10,6 @@ import {
   faYoutube,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
-
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
