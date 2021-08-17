@@ -5,7 +5,7 @@ import Intro from "../components/Intro";
 import Demo from "../components/Demo";
 import Footer from "../components/Footer";
 import ValueProps from "../components/ValueProps";
-import wordmark from "../images/wordmarkBluePNG.png";
+import wordmark from "../images/wordmark.png";
 
 const IndexPage = () => {
   return (
