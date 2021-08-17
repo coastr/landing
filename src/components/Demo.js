@@ -25,7 +25,7 @@ const Demo = () => {
 
       <div className="demo-scan-container" style={{ backgroundColor: "#4664fd", marginTop: "-1px" }}>
         <div className="demo-scan-image-container">
-          <img src={reviewMockupImage} className="demo-scan-image" />
+          <img src={reviewMockupImage} className="review-scan-image" />
         </div>
         <div className="demo-text-container">
           <div className="demo-text-title demo-review-text">review</div>
