@@ -72,12 +72,17 @@ body {
 }
 
 .intro-text-container {
-  margin-top: -70px;
+  padding-bottom: 70px;
   flex: 3;
 }
 
 .intro-title {
-  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  background-image: linear-gradient(
+    180deg,
+    #2393fb 0%,
+    #4c61fd 99.99%,
+    rgba(77, 95, 253, 0) 100%
+  );
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,21 +91,35 @@ body {
   font-family: "Poppins Bold";
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 35px;
   line-height: 105%;
   /* or 50px */
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .intro-text {
   font-family: "Poppins SemiBold";
-  font-size: 25px;
+  font-size: 20px;
   align-items: center;
   line-height: 30px;
   color: #8a8a8a;
   word-wrap: normal;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .intro-title {
+    padding-left: 50px;
+    font-size: 48px;
+  }
+
+  .intro-text {
+    padding-left: 50px;
+    font-size: 25px;
+    text-align: left;
+  }
 }
 
 .intro-wave-container {
@@ -153,7 +172,7 @@ body {
 
 .demo-text-title {
   font-family: "Poppins Bold";
-  font-size: 80px;
+  font-size: 55px;
   align-items: center;
   color: #ffffff;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
@@ -161,15 +180,21 @@ body {
 
 .demo-text-subtitle {
   font-family: "Poppins Bold";
-  font-size: 24px;
+  font-size: 20px;
   align-items: center;
   color: #ffffff;
   margin-top: -20px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.demo-review-text {
-  color: #ffffff;
+@media (min-width: 992px) {
+  .demo-text-title {
+    font-size: 80px;
+  }
+
+  .demo-text-subtitle {
+    font-size: 24px;
+  }
 }
 
 .demo-scan-container {
@@ -197,7 +222,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  transform: rotate(3.1deg);
+  /* transform: rotate(3.1deg); */
 }
 
 .review-scan-image {
@@ -206,7 +231,16 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  transform: rotate(-3.1deg);
+  /* transform: rotate(-3.1deg); */
+}
+
+@media (min-width: 992px) {
+  .demo-scan-image {
+    transform: rotate(3.1deg);
+  }
+  .review-scan-image {
+    transform: rotate(-3.1deg);
+  }
 }
 
 .value-props-container {
@@ -218,10 +252,16 @@ body {
 .why-coastr-text {
   font-family: "Poppins Bold";
   font-weight: bold;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 139.5%;
   margin: 100px 0 30px 0;
   color: #323232;
+}
+
+@media (min-width: 992px) {
+  .why-coastr-text {
+    font-size: 70px;
+  }
 }
 
 .value-prop-container {
@@ -248,7 +288,12 @@ body {
   border-color: #2393fb;
 
   background-color: #2393fb;
-  background-image: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  background-image: linear-gradient(
+    180deg,
+    #2393fb 0%,
+    #4c61fd 99.99%,
+    rgba(77, 95, 253, 0) 100%
+  );
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -327,7 +372,12 @@ body {
   font-size: 15px;
   color: #ffffff;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(180deg, #2393fb 0%, #4c61fd 99.99%, rgba(77, 95, 253, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #2393fb 0%,
+    #4c61fd 99.99%,
+    rgba(77, 95, 253, 0) 100%
+  );
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.25));
   border-radius: 65px;
   white-space: nowrap;
@@ -335,7 +385,12 @@ body {
 
 .footer-contact-button:hover {
   color: #ffffff;
-  background: linear-gradient(180deg, #197edd 0%, #384de6 99.99%, rgba(77, 95, 253, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #197edd 0%,
+    #384de6 99.99%,
+    rgba(77, 95, 253, 0) 100%
+  );
 }
 
 .footer-contact-text {

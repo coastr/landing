@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.coastr.io",
     title: "Coastr",
+    titleTemplate: "%s | Coastr",
+    description:
+      "Coastr allows restaurant customers to pay their bill through their phones",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",

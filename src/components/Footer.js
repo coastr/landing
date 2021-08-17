@@ -1,6 +1,5 @@
 import * as React from "react";
 import "../styles/styling.css";
-import wordmark from "../images/wordmark.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -12,19 +11,17 @@ import {
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer container">
-        <div className="footer-contact row justify-content-center">
-          <p className="footer-contact-text col-12 col-lg-6 text-center text-lg-start d-flex justify-content-center">
+        <div className="footer-contact row justify-content-center align-items-center">
+          <div className="footer-contact-text col-12 col-lg-6 text-center text-lg-start d-flex justify-content-center">
             currently in development
-          </p>
+          </div>
           <a
             className="footer-contact-button col-12 col-lg-6 d-flex justify-content-center"
-            href={"mailto:info@coastr.io"}
+            href={"http://eepurl.com/hGdZPD"}
             target="_blank"
           >
             get updates

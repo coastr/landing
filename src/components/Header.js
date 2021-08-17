@@ -12,8 +12,8 @@ const Header = () => {
       <div className="header-item-container">
         <a
           style={{ marginTop: "10px", position: "relative", top: "2px" }}
-          className="footer-contact-button"
-          href={"mailto:info@coastr.io"}
+          className="footer-contact-button d-none d-md-block"
+          href={"http://eepurl.com/hGdZPD"}
           target="_blank"
         >
           get updates

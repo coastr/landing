@@ -7,16 +7,17 @@ const Intro = () => {
   return (
     <div className="intro">
       <div className="intro-content">
-        <div className="intro-mockup-container">
+        <div className="intro-mockup-container d-none d-lg-flex">
           <img src={mockup} className="intro-mockup"></img>
         </div>
-        <div className="intro-text-container">
+        <div className="intro-text-container d-flex flex-column align-items-center align-items-lg-start">
           <div className="intro-title">instantly pay </div>
           <div className="intro-title" style={{ marginTop: "-5px" }}>
             at restaurants
           </div>
           <div className="intro-text">
-            coastr allows restaurant <br></br>customers to pay their bill <br></br>through their phones
+            coastr allows restaurant <br></br>customers to pay their bill{" "}
+            <br></br>through their phones
           </div>
         </div>
       </div>
