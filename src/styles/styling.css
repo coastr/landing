@@ -134,12 +134,12 @@ body {
   height: auto;
   overflow: hidden;
   margin-bottom: -6px;
+  margin-top: -6px;
+  width: 100%;
 }
 
 .scan-wave {
-  width: 110%;
   position: relative;
-  right: 2%;
 }
 
 .demo-container {
