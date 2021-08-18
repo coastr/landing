@@ -14,6 +14,17 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>Coastr</title>
         <link rel="canonical" href="https://coastr.io" />
+        <script id="mcjs">
+          !function(c,h,i,m,p)
+          {
+            ((m = c.createElement(h)),
+            (p = c.getElementsByTagName(h)[0]),
+            (m.async = 1),
+            (m.src = i),
+            p.parentNode.insertBefore(m, p))
+          }
+          (document,"script","https://chimpstatic.com/mcjs-connected/js/users/366aaa02479f8f94f4e3a86b7/02b2f3c98d6a6e0323b8a6549.js");
+        </script>
       </Helmet>
       <div className="content">
         <Header />
