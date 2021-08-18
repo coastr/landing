@@ -10,14 +10,11 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-gtag",
       options: {
-        trackingId: "282662020",
-        anonymize: false,
+        trackingId: "G-F9S5Y1FVJM",
         head: true,
-        defer: false,
-        pageTransitionDelay: 0,
-        enableWebVitalsTracking: true,
+        anonymize: false,
       },
     },
     "gatsby-plugin-react-helmet",
