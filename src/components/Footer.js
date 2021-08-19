@@ -27,6 +27,11 @@ const Footer = () => {
             get updates
           </a>
         </div>
+        <div className="row justify-content-center">
+          <div className="d-flex justify-content-center footer-contact-text">
+            contact us at info@coastr.io
+          </div>
+        </div>
         <div className="footer-social-links">
           <a
             className="footer-social-icon"
